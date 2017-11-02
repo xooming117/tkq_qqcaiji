@@ -1,0 +1,4 @@
+APScheduler>=3.1.0
+requests[socks]>=2.11.1
+requests-oauthlib>=0.6.2
+pymongo==3.5.1

@@ -1,0 +1,87 @@
+[
+  {
+    "keywords": ["下载", "哪里下", "版本", "最新版", "稳定版"],
+    "whitelist": ["qq"],
+    "message": "poi 下载地址：https://poi.io"
+  },
+  {
+    "keywords": ["掉落", "掉率", "哪里掉"],
+    "message": "poi-statistics # 掉落统计：\nhttp://db.kcwiki.moe/drop/"
+  },
+  {
+    "keywords": ["白屏", "黑屏"],
+    "whitelist": ["不", "没", "还"],
+    "message": "poi 白屏/黑屏问题解决方法\n\nA. 通用\n1. 将「网络代理→poi 端口」设置为「0」并重启poi\n2. 关闭硬件加速，并重启poi\n3. 取消勾选「显示设置→分辨率随窗口大小自动调整」\n\nB. 岛风Go用户请尝试以下操作\n1. 请尝试打开「baidu.com」\n a. 可以打开百度：岛风Go换线\n b. 不能打开百度：重启岛风Go\n2. 咨询岛风Go客服\n\nC. 其他代理用户请提供以下信息\n1. poi 版本号、代理软件、能否使用其他浏览器打开游戏\n2. 代理设置截图"
+  },
+  {
+    "keywords": ["窗口大小"],
+    "message": "poi 窗口大小无法更改：\n1. 请按 Alt 打开菜单（Windows/Linux 用户）\n2. 在「poi」菜单中勾选「允许变更窗口大小」"
+  },
+  {
+    "keywords": ["删除缓存", "删缓存"],
+    "message": "poi 如何删除缓存：\n1. 在 poi 左下角工具栏中，点击闪电图标打开自定义缓存目录，清空该目录\n2. 在 poi 设置中点击「删除缓存」\n3. 请检查代理软件的缓存设置"
+  },
+  {
+    "keywords": ["删除config", "删config", "删除配置文件"],
+    "message": "删除 poi 配置文件：\n1. 关闭 poi\n2. 在文件管理器中打开 poi 数据目录\nWindows: %APPDATA%/poi\nMac: ~/Library/Application Support/poi\nLinux: ~/.config/poi\n3. 删除文件「config.cson」"
+  },
+  {
+    "keywords": ["poi索敌", "索敌公式"],
+    "message": "poi 6.3.0+ 的索敌公式为 33 式，索敌值达到 33 即可在 2-5 上路稳定进入 boss。请自行搜索相关资料。"
+  },
+  {
+    "keywords": ["poi缓存", "使用缓存", "本地缓存"],
+    "message": "poi 如何使用本地缓存：\n0. 岛风Go用户不需要设置 poi 的本地缓存\n1. 在左下角工具栏中，点击闪电图标打开自定义缓存目录\n2. 在该目录中创建「KanColle」目录\n3. 将缓存文件放到 KanColle 目录中\n4. 最终目录结构为「MyCache/KanColle/kcs」"
+  },
+  {
+    "keywords": ["poi数据"],
+    "message": "poi 数据目录：\n* Windows: %APPDATA%/poi\n* Mac: ~/Library/Application Support/poi\n* Linux: ~/.config/poi\n数据目录内有意义的目录/文件：\n* config.cson 设置\n* quest_tracking_123456789.cson 任务计数\n* akashic-records 航海日志\n* battle-detail 战斗详情\n* hairstrength 我变强了\n* hensei-nikki 编成日记\n* wheres-my-fuel-gone 耗资记录"
+  },
+  {
+    "keywords": ["一心二用"],
+    "message": "「一心二用」是用于游玩「其他游戏」的插件、不可以用于双开舰娘！"
+  },
+  {
+    "keywords": ["vip"],
+    "whitelist": ["qq"],
+    "message": "在插件设置中安装「poi-plugin-vip」即可开启 poi 炫彩 VIP 版，你值得拥有！"
+  },
+  {
+    "keywords": ["什么群", "啥群"],
+    "message": "这里是 poi 用户讨论群兼舰娘讨论群"
+  },
+  {
+    "keywords": ["岛风go", "岛风狗"],
+    "message": "岛风Go用户请咨询岛风Go客服"
+  },
+  {
+    "keywords": ["求奶", "奶我", "奶你", "奶他", "奶她"],
+    "message": ["天下皆欧 唯你独非", "氪不改命 玄不救非", "天赋欧颜 逢赌必出"],
+    "interval": 4
+  },
+  {
+    "keywords": ["复读", "人类本质", "人类的本质"],
+    "whitelist": ["复读机"],
+    "message": "人类的本质只是个复读机",
+    "interval": 60
+  },
+  {
+    "keywords": ["早安", "早上好", "小鳖早"],
+    "message": "早安",
+    "interval": 4
+  },
+  {
+    "keywords": ["午安", "中午好"],
+    "message": "午安",
+    "interval": 4
+  },
+  {
+    "keywords": ["晚安", "好梦"],
+    "message": "晚安",
+    "interval": 4
+  },
+  {
+    "keywords": ["nana", "娜娜"],
+    "message": "娜娜大笨蛋！"
+  }
+]
