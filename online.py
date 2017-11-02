@@ -26,7 +26,7 @@ scheduler = BackgroundScheduler(
 # Online
 ################
 class ONLINE:
-    ADMIN = ['412632991', '694692391']
+    ADMIN = ['1307814956']
     TOLERANCE = timedelta(minutes=10)
     last = datetime.now()
     notified_last = None
